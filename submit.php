@@ -26,11 +26,11 @@
 
                 <form action="new2.php" method="post">
                     <div class="input-field">
-                        <input type="text" name="name" placeholder="Enter your name" required>
+                        <input type="text" class="nam" name="name" placeholder="Enter your name" required>
                         <i class="fas fa-chevron-right"></i>
                     </div>
                     <div class="input-field">
-                        <input type="tel" name="number" placeholder="Enter your number" required>
+                        <input type="tel" class="nub" name="number" placeholder="Enter your number" required>
                         <i class="fas fa-phone"></i>
                        
                     </div>
@@ -42,7 +42,7 @@
                     </div>
 
                     <div class="input-field button">
-                        <button><input type="submit" name="submit" value="Submit" required></button>
+                        <button><input type="submit" class="bt" name="submit" value="Submit" required></button>
                     </div>
                     
                 </form>
